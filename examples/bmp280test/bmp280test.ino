@@ -15,7 +15,6 @@
   BSD license, all text above must be included in any redistribution
  ***************************************************************************/
 
-#include <Wire.h>
 #include <SPI.h>
 #include <Adafruit_Sensor.h>
 #include <Adafruit_BMP280.h>

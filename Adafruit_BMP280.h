@@ -24,12 +24,7 @@
 
 #include <Adafruit_Sensor.h>
 
-#ifdef __AVR_ATtiny85__
- #include "TinyWireM.h"
- #define Wire TinyWireM
-#else
- #include <Wire.h>
-#endif
+#include "i2c_t3.h"
 
 /*=========================================================================
     I2C ADDRESS/BITS/SETTINGS
