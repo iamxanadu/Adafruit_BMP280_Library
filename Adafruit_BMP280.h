@@ -22,8 +22,6 @@
  #include "WProgram.h"
 #endif
 
-#include <Adafruit_Sensor.h>
-
 #include "i2c_t3.h"
 
 /*=========================================================================
